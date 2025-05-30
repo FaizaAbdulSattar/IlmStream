@@ -1,5 +1,5 @@
 
-# 🌙 **IlmStream** – Read. Reflect. Reconnect.
+# 🌙 **IlmStream** – Read. Reflect. Reconnect
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 📱 [**Live Demo**](https://ilmi-library.vercel.app/) | 💻 [**Source Code**](https://github.com/FaizaAbdulSattar/IlmStream)
@@ -27,7 +27,7 @@
 
 ## 📸 Sneak Peek
 
-| Splash Screen                                                                              | Categories View                                                                              | Reading Experience                                                                          |
+| Categories                                                                              | Splash Screen View                                                                              | Reading Experience                                                                          |
 | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | ![Splash](https://github.com/user-attachments/assets/11b93cff-d9e1-43f9-8a0a-0bc000fcadfb) | ![Category](https://github.com/user-attachments/assets/98bb7920-179d-46f6-aeb6-a78f5a98540c) | ![Reading](https://github.com/user-attachments/assets/ec5d2a51-1f8f-4968-bea9-413f22132ba0) |
 
@@ -164,4 +164,3 @@ A passionate Flutter developer building thoughtful, inclusive digital platforms 
 ---
 
 > 📖 *“IlmStream is not just a library — it’s a bridge between tradition and technology, designed to elevate hearts and minds.”* ✨
-
