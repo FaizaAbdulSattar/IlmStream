@@ -1,0 +1,144 @@
+{
+    "books": [
+        {
+            "title": "15 Line Qur'an",
+            "author": "Allah",
+            "path": "assets/pdfs/15_line_quran.pdf",
+            "cover": "https://artbeat.pk/cdn/shop/files/lightpurplenew7_1200x.jpg?v=1731442747",
+            "category": "Islamic"
+        },
+        {
+            "title": "Revive Your Heart",
+            "author": "Nouman Ali Khan",
+            "path": "assets/pdfs/revive_your_heart.pdf",
+            "cover": "https://store.bayyinah.com/cdn/shop/files/Revive-Your-Heart-paper-back.jpg?v=1734513277&width=1920",
+            "category": "Islamic"
+        },
+        {
+            "title": "Seerat-un-Nabi",
+            "author": "Multiple",
+            "path": "assets/pdfs/atlas_seerat_nabvi.pdf",
+            "cover": "https://cdn11.bigcommerce.com/s-qrk4pkvixl/images/stencil/1500x1500/products/9856/5657/ps-1_8_25__68447.1581529357.png?c=1",
+            "category": "Islamic"
+        },
+        {
+            "title": "Sealed Nectar (Color)",
+            "author": "Safee-ur-Rahman Mubarakpuri",
+            "path": "assets/pdfs/sealed_nectar_color.pdf",
+            "cover": "https://darussalam.pk/cdn/shop/files/01_482ce668-3831-40ca-97aa-73e3d98bfa2a.jpg?v=1745412778&width=535",
+            "category": "Islamic"
+        },
+        {
+            "title": "Book الرحیق المختوم",
+            "author": "Safee-ur-Rahman Mubarakpuri",
+            "path": "assets/pdfs/rahik_makhtoom.pdf",
+            "cover": "https://darulandlus.pk/data/books/arraheeq-almakhtum-urdu-darulandlus-20181220-140539.png",
+            "category": "Islamic"
+        },
+        {
+            "title": "Guldasta e Ahle Bait",
+            "author": "Maulana Tariq Jamil",
+            "path": "assets/pdfs/guldasta_e_ahle_bait.pdf",
+            "cover": "https://media.bookcorner.shop/uploads/original/5e18b746312d91578678086.jpg",
+            "category": "Islamic"
+        },
+        {
+            "title": "Lisan Un Quran 4th Edition",
+            "author": "Amir Suhail",
+            "path": "assets/pdfs/lisan_un_quran_4th_edition.pdf",
+            "cover": "https://i.pinimg.com/564x/ab/01/56/ab015636aea8c4564c7f4ca055ee8890.jpg",
+            "category": "Islamic"
+        },
+        {
+            "title": "Masla Qurbani",
+            "author": "Abul Ala Maududi",
+            "path": "assets/pdfs/masla_qurbani.pdf",
+            "cover": "https://readmaududi.com/wp-content/uploads/2022/05/MAsla-Qurbani.jpg",
+            "category": "Islamic"
+        },
+        {
+            "title": "Novel Mai Anmol",
+            "author": "Nimra Ahmed",
+            "path": "assets/pdfs/mai_anmol.pdf",
+            "cover": "https://hostore.pk/cdn/shop/files/MainAnmolNovelByNimraAhmedavailableatHOstore_2.jpg?v=1715229139&width=713",
+            "category": "Novel"
+        },
+        {
+            "title": "Quran Translation 49 Languages",
+            "author": "Multiple",
+            "path": "assets/pdfs/quran_translation_49_languages.pdf",
+            "cover": "https://static.vecteezy.com/system/resources/previews/011/546/983/large_2x/mecca-saudi-arabia-sep-2022-beautiful-shelves-for-keeping-the-quran-in-masjid-al-haram-there-are-such-quran-shelves-at-different-places-in-masjid-al-haram-for-pilgrims-free-photo.jpg",
+            "category": "Islamic"
+        },
+        {
+            "title": "Safarnama Arzul Quran",
+            "author": "Abul Ala Maududi",
+            "path": "assets/pdfs/safarnama_arzul_quran.pdf",
+            "cover": "https://gufhtugu.com/wp-content/uploads/2021/03/safar-nama-e-arzul-quran.jpeg",
+            "category": "Islamic"
+        },
+        {
+            "title": "خطبات سید مودودی",
+            "author": "Abul Ala Maududi",
+            "path": "assets/pdfs/kutub_modoodi.pdf",
+            "cover": "https://i0.wp.com/bookfriendstore.com/wp-content/uploads/2023/09/khutbat-maududi-jpeg.webp?fit=1080%2C1080&ssl=1",
+            "category": "Islamic"
+        },
+        {
+            "title": "خلاصہ سیرت النبی صلی اللہ علیہ وسلم",
+            "author": "Multiple",
+            "path": "assets/pdfs/seerat_summary.pdf",
+            "cover": "https://i.pinimg.com/736x/7a/99/a0/7a99a019f9261b332d7dc9363ad77132.jpg",
+            "category": "Islamic"
+        },
+        {
+            "title": "خلافت اور ملوکیت",
+            "author": "Abul Ala Maududi",
+            "path": "assets/pdfs/khilafat_aur_mulukiyat.pdf",
+            "cover": "https://idarapublications.com/cdn/shop/products/khilafat-e-Mulooqiyat_1_1024x1024.png?v=1623856862",
+            "category": "Islamic"
+        },
+        {
+            "title": "دینیات",
+            "author": "Abul Ala Maududi",
+            "path": "assets/pdfs/deeniyat.pdf",
+            "cover": "https://darulandlus.com.pk/cdn/shop/files/deeniyat-new-edition-darulandlus-20240206-231753.jpg?v=1729889180",
+            "category": "Islamic"
+        },
+        {
+            "title": "Sheikh Sudais Dua (Masjid An Nabawi)",
+            "author": "Sheikh Sudais",
+            "path": "assets/pdfs/sudais_dua_masjidnabawi.pdf",
+            "cover": "https://imgv2-2-f.scribdassets.com/img/document/415891074/original/2287f7f111/1?v=1",
+            "category": "Islamic"
+        },
+        {
+            "title": "Sudais Dua 1434",
+            "author": "Sheikh Sudais",
+            "path": "assets/pdfs/sudais_dua_1434.pdf",
+            "cover": "https://archive.org/services/img/sudais-dua-1434/full/pct:200/0/default.jpg",
+            "category": "Islamic"
+        },
+        {
+            "title": "Sudais Dua #319",
+            "author": "Sheikh Sudais",
+            "path": "assets/pdfs/sudais_duaa_319.pdf",
+            "cover": "https://website-assets.studocu.com/img/document_thumbnails/d2a83c4181b4dc2290a0e3080b0b68e8/thumb_300_388.png",
+            "category": "Islamic"
+        },
+        {
+            "title": "Uloom ul Quran",
+            "author": "Multiple",
+            "path": "assets/pdfs/uloom_ul_quran.pdf",
+            "cover": "https://ziabookdepo.com/wp-content/uploads/2024/05/Uloom-Ul-Quran.jpg",
+            "category": "Islamic"
+        },
+        {
+            "title": "الفاروق از مولانا شبلی نعمانی",
+            "author": "نعمانی",
+            "path": "assets/pdfs/alqairuq_naumani.pdf",
+            "cover": "https://maktabaerasheedya.com/wp-content/uploads/2024/08/gfujgykifcju.jpg",
+            "category": "Islamic"
+        }
+    ]
+}
