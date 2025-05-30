@@ -27,7 +27,7 @@
 
 ## 📸 Sneak Peek
 
-| Categories                                                                              | Splash Screen View                                                                              | Reading Experience                                                                          |
+| Categories View                                                                             | Splash Screen                                                                               | Reading Experience                                                                          |
 | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | ![Splash](https://github.com/user-attachments/assets/11b93cff-d9e1-43f9-8a0a-0bc000fcadfb) | ![Category](https://github.com/user-attachments/assets/98bb7920-179d-46f6-aeb6-a78f5a98540c) | ![Reading](https://github.com/user-attachments/assets/ec5d2a51-1f8f-4968-bea9-413f22132ba0) |
 
