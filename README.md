@@ -1,172 +1,167 @@
 
-# IlmStream
+# 🌙 **IlmStream** – Read. Reflect. Reconnect.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
-[Live Demo](https://ilmi-library.vercel.app/) | [Source Code](https://github.com/FaizaAbdulSattar/IlmStream)
-
----
-
-## Overview
-
-**IlmStream** is a modern, elegant Flutter application designed to serve as a digital library for Islamic literature and Urdu novels. It offers users an immersive reading experience with support for PDF viewing, offline access, and seamless navigation. IlmStream is thoughtfully crafted with a focus on readability, accessibility, and cultural authenticity — featuring Noto Nastaliq Urdu font support and a clean, responsive UI.
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+📱 [**Live Demo**](https://ilmi-library.vercel.app/) | 💻 [**Source Code**](https://github.com/FaizaAbdulSattar/IlmStream)
 
 ---
 
-## Key Features
+## 📚 About IlmStream
 
-- **Dual-Category Browsing:** Effortlessly switch between Islamic books and Urdu novels.
-- **Advanced Search:** Dynamic filtering by book title and author to find content instantly.
-- **Integrated PDF Viewer:** Read books directly within the app without external dependencies.
-- **Offline Accessibility:** Download books for uninterrupted reading anytime, anywhere.
-- **Dark Mode Support:** Comfortable reading in all lighting conditions with easy theme toggling.
-- **Beautiful Typography:** Utilizes Google Fonts with Noto Nastaliq Urdu for elegant script rendering.
-- **Responsive & Intuitive UI:** Adapted for various devices with smooth animations and transitions.
-- **Open Source:** Fully customizable and extendable for developers and contributors.
+**IlmStream** is a culturally-inspired, aesthetically crafted Flutter application designed as your gateway to **Islamic literature** and **Urdu novels**. With immersive reading capabilities, modern design, and offline functionality, it’s more than a digital library—it’s your personal space to **read, reflect, and reconnect** with heritage and spirituality.
 
 ---
 
-## Screenshots
+## ✨ Features at a Glance
 
-![Home Screen](screenshots/home_light.png)  
-*Home screen with book categories and search*
-
-![PDF Viewer](screenshots/pdf_viewer_dark.png)  
-*In-app PDF reading experience with dark mode*
-
----
-
-## Demo
-
-Experience IlmStream live at [https://ilmi-library.vercel.app/](https://ilmi-library.vercel.app/).
+* 📂 **Dual Collection** – Seamlessly browse both Islamic books and Urdu fiction.
+* 🔍 **Intelligent Search** – Quickly find books by title or author.
+* 📖 **Built-in PDF Reader** – Read instantly with an integrated viewer.
+* 📥 **Offline Mode** – Download and enjoy anytime, anywhere.
+* 🌙 **Dark Mode** – Enhanced readability in low light.
+* 🖋️ **Authentic Typography** – Beautiful Noto Nastaliq Urdu via Google Fonts.
+* 📱 **Responsive Design** – Fully optimized for both phones and tablets.
+* 💡 **Open Source** – Built for community learning and contributions.
 
 ---
 
-## Installation Guide
+## 📸 Sneak Peek
 
-### Prerequisites
+| Splash Screen                                                                              | Categories View                                                                              | Reading Experience                                                                          |
+| ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| ![Splash](https://github.com/user-attachments/assets/11b93cff-d9e1-43f9-8a0a-0bc000fcadfb) | ![Category](https://github.com/user-attachments/assets/98bb7920-179d-46f6-aeb6-a78f5a98540c) | ![Reading](https://github.com/user-attachments/assets/ec5d2a51-1f8f-4968-bea9-413f22132ba0) |
 
-- Flutter SDK ≥ 3.0.0  
-- Dart ≥ 3.0.0  
-- Compatible device or emulator
+---
 
-### Steps
+## 🚀 Try It Now
 
-1. **Clone the repository:**
+👉 [**Explore the Live App**](https://ilmi-library.vercel.app/) – no installation needed.
+
+---
+
+## 🛠 Installation Instructions
+
+### ✅ Requirements
+
+* Flutter SDK ≥ 3.0.0
+* Dart ≥ 3.0.0
+* Android/iOS Emulator or Physical Device
+
+### 🔧 Setup Steps
 
 ```bash
+# Clone the repository
 git clone https://github.com/FaizaAbdulSattar/IlmStream.git
 cd IlmStream
-````
 
-2. **Install dependencies:**
-
-```bash
+# Get dependencies
 flutter pub get
-```
 
-3. **Run the application:**
-
-```bash
+# Launch the app
 flutter run
 ```
 
 ---
 
-## Project Architecture
+## 📁 Project Structure
 
-```
+```bash
 lib/
-├── main.dart          # App entry point
-├── screens/
+├── main.dart                  # Entry point
+├── screens/                   # UI screens
 │   ├── home_screen.dart
 │   ├── pdf_viewer_screen.dart
 │   ├── splash_screen.dart
-├── widgets/
+├── widgets/                   # Custom widgets
 │   ├── book_grid.dart
 │   ├── search_bar.dart
 ├── models/
-│   └── book.dart
+│   └── book.dart              # Book data model
 ├── utils/
-│   └── theme.dart
+│   └── theme.dart             # Theme and styling
+
 assets/
-├── books.json          # Book metadata
-├── pdfs/               # PDF files
-└── images/             # Book covers
+├── books.json                 # Metadata for books
+├── pdfs/                      # Book PDFs
+└── images/                    # Cover images
 ```
 
 ---
 
-## Usage & Customization
+## ➕ Add New Books
 
-### Adding New Books
+To add a new book:
 
-1. Place the PDF file inside `assets/pdfs/`.
-2. Add a new entry to `assets/books.json`:
+1. Drop your PDF in: `assets/pdfs/`
+2. Add the book details in `assets/books.json`:
 
 ```json
 {
-  "title": "Sample Book Title",
+  "title": "Sample Book",
   "author": "Author Name",
   "path": "assets/pdfs/sample_book.pdf",
-  "cover": "https://link-to-cover-image.jpg",
-  "category": "Islamic"  // or "Novel"
+  "cover": "https://link-to-image.jpg",
+  "category": "Islamic" // or "Novel"
 }
 ```
 
-3. Update `pubspec.yaml` if adding new assets.
-
-### Themes
-
-* Modify `lib/utils/theme.dart` to customize light/dark modes.
-* Google Fonts integration allows easy typography changes.
+3. Register assets in `pubspec.yaml` if needed.
 
 ---
 
-## Dependencies
+## 🎨 Theming & Typography
 
-| Package                        | Purpose               |
-| ------------------------------ | --------------------- |
-| `flutter`                      | Core SDK              |
-| `google_fonts`                 | Custom fonts support  |
-| `syncfusion_flutter_pdfviewer` | PDF rendering         |
-| `path_provider`                | Access device storage |
+* The color palette and theme settings are available in:
+  `lib/utils/theme.dart`
+* Fonts powered by [Google Fonts](https://fonts.google.com/), including support for **Noto Nastaliq Urdu** for a premium native reading experience.
 
 ---
 
-## Contribution Guidelines
+## 📦 Core Dependencies
 
-Contributions, issues, and feature requests are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -m 'Add your feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a Pull Request.
-
----
-
-## License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+| Package                        | Role                |
+| ------------------------------ | ------------------- |
+| `flutter`                      | Base SDK            |
+| `google_fonts`                 | Font integration    |
+| `syncfusion_flutter_pdfviewer` | PDF viewing         |
+| `path_provider`                | Local file handling |
 
 ---
 
-## About the Developer
+## 🤝 Contributing
 
-**Faiza Abdul Sattar**
-Passionate Flutter developer and open-source contributor, dedicated to building inclusive and culturally rich digital experiences.
+Contributions are warmly welcomed! To collaborate:
 
----
+```bash
+# Fork the repository
+# Create your feature branch
+git checkout -b feature/your-feature
 
-## Contact
+# Commit your work
+git commit -m "✨ Add new feature"
 
-* GitHub: [FaizaAbdulSattar](https://github.com/FaizaAbdulSattar)
-* Website: [ilmi-library.vercel.app](https://ilmi-library.vercel.app/)
-
----
-
-*Thank you for exploring IlmStream — enriching minds one book at a time.*
-
+# Push and create a Pull Request
+git push origin feature/your-feature
 ```
 
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+Read more in the [LICENSE](LICENSE) file.
+
+---
+
+## 👩‍💻 Meet the Developer
+
+**Faiza Abdul Sattar**
+A passionate Flutter developer building thoughtful, inclusive digital platforms with a deep appreciation for cultural storytelling and open-source collaboration.
+
+* 🌐 [Website](https://ilmi-library.vercel.app/)
+* 🧑‍💻 [GitHub Profile](https://github.com/FaizaAbdulSattar)
+
+---
+
+> 📖 *“IlmStream is not just a library — it’s a bridge between tradition and technology, designed to elevate hearts and minds.”* ✨
 
