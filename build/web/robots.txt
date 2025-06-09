@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ilm-stream.vercel.app/sitemap.xml
