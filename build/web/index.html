@@ -1,43 +1,85 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
+<html lang="en">
+  <head>
+    <base href="/" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
+    <!-- ✅ SEO Title and Description -->
+    <title>Ilm Stream – Islamic Library | Urdu Novels | Free PDF Books</title>
+    <meta
+      name="description"
+      content="Ilm Stream is the best Islamic and Urdu library for reading PDF books online. Browse Islamic books, Urdu novels, stories, Tafseer, Hadith, and much more for free."
+    />
+    <meta
+      name="keywords"
+      content="Ilm Stream, Islamic Library, Urdu Library, Islamic Books, Urdu Novels, Free PDF Books, Islamic PDF, Urdu Fiction, Novel Books, Tafseer, Hadith, Urdu Stories"
+    />
+    <meta name="author" content="Faiza Abdul Sattar" />
+    <meta name="google-site-verification" content="KGWmkv0CQcHNububBhLYP16L1EPgvn3QlACjC2-OlCw" />
 
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+    <!-- ✅ Canonical URL -->
+    <link rel="canonical" href="https://ilm-stream.vercel.app/" />
 
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/">
+    <!-- ✅ Open Graph for Facebook & WhatsApp -->
+    <meta property="og:title" content="Ilm Stream – Islamic Library | Urdu Novels | PDF Books" />
+    <meta
+      property="og:description"
+      content="Read Islamic books, Urdu novels, and Islamic stories online. Free PDF viewer with Nastaliq font, offline access, and categorized Islamic library."
+    />
+    <meta property="og:image" content="https://ilm-stream.vercel.app/icons/Icon-512.png" />
+    <meta property="og:url" content="https://ilm-stream.vercel.app/" />
+    <meta property="og:type" content="website" />
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+    <!-- ✅ Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ilm Stream – Islamic & Urdu Books Library" />
+    <meta
+      name="twitter:description"
+      content="Explore a wide range of Islamic books, Urdu novels, and stories in PDF format. Best Islamic Library online."
+    />
+    <meta name="twitter:image" content="https://ilm-stream.vercel.app/icons/Icon-512.png" />
 
-  <!-- iOS meta tags & icons -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="ilmi_library">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+    <!-- ✅ Mobile PWA -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Ilm Stream" />
+    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="manifest" href="manifest.json" />
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+    <!-- ✅ Structured Data for Google -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Ilm Stream",
+        "url": "https://ilm-stream.vercel.app",
+        "description": "Ilm Stream is an online Islamic and Urdu book library featuring Islamic books, Urdu novels, stories, Tafseer, Hadith, and free PDFs.",
+        "inLanguage": "ur",
+        "author": {
+          "@type": "Person",
+          "name": "Faiza Abdul Sattar"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://ilm-stream.vercel.app/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
 
-  <title>ilmi_library</title>
-  <link rel="manifest" href="manifest.json">
-</head>
-<body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
-<script type="text/javascript">
-  pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js";
-</script>
+    <!-- ✅ PDF.js for In-Browser PDF Viewing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+    <script>
+      pdfjsLib.GlobalWorkerOptions.workerSrc =
+        "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js";
+    </script>
+  </head>
 
-  <script src="flutter_bootstrap.js" async></script>
-</body>
+  <body>
+    <!-- Flutter App Bootstrap -->
+    <script src="flutter_bootstrap.js" async></script>
+  </body>
 </html>
