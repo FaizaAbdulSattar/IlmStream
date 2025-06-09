@@ -21,7 +21,7 @@ class _IlmiLibraryAppState extends State<IlmiLibraryApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Ilmi Library – اسلامی و ادبی کتابیں',
+      title: 'Ilm Stream – اسلامی و ادبی کتابیں',
       theme: ThemeData(
         brightness: Brightness.light,
         scaffoldBackgroundColor: Colors.white,
